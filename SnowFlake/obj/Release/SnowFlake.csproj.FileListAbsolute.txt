@@ -1,0 +1,10 @@
+D:\GitHub\SnowFlake\SnowFlake\bin\Release\SnowFlake.exe.config
+D:\GitHub\SnowFlake\SnowFlake\bin\Release\SnowFlake.exe
+D:\GitHub\SnowFlake\SnowFlake\bin\Release\SnowFlake.pdb
+D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.csprojResolveAssemblyReference.cache
+D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.Form1.resources
+D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.Properties.Resources.resources
+D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.SnowFlake.resources
+D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.csproj.GenerateResource.Cache
+D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.exe
+D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.pdb

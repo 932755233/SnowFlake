@@ -27,8 +27,10 @@ namespace SnowFlake
                 snowFlake.Show();
             }
 
-            SoundPlayer player = new SoundPlayer();
+          //  SoundPlayer player = new SoundPlayer(Properties.Resources.ResourceManager.GetStream("oppo"));
+          //  player.PlayLooping();
 
+            ntfShow.ShowBalloonTip(1000);
         }
 
         private void Form1_MinimumSizeChanged(object sender, EventArgs e)
