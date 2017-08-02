@@ -35,7 +35,7 @@
             // 
             // ntfShow
             // 
-            this.ntfShow.BalloonTipText = "左键双击选择退出";
+            this.ntfShow.BalloonTipText = "看这里，左键双击下面的图标退出";
             this.ntfShow.BalloonTipTitle = "提示";
             this.ntfShow.Icon = ((System.Drawing.Icon)(resources.GetObject("ntfShow.Icon")));
             this.ntfShow.Text = "雪花";

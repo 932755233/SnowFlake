@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Media;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -21,10 +22,13 @@ namespace SnowFlake
         private void Form1_Load(object sender, EventArgs e)
         {
             this.TransparencyKey = this.BackColor;
-            for (int i = 0; i < 20; i++)
+            Location = new Point(-10, -10);
+            for (int i = 0; i < 30; i++)
             {
+               // Thread.Sleep(3000);
                 var snowFlake = new SnowFlake();
                 snowFlake.Show();
+                
             }
 
           //  SoundPlayer player = new SoundPlayer(Properties.Resources.ResourceManager.GetStream("oppo"));

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -13,7 +14,6 @@ namespace SnowFlake
     public partial class SnowFlake : Form
     {
         Random rd = new Random();
-        int length = 0;// 每次时间走的步数
         int WindowsWidth = 0;//屏幕宽度
         int WindowsHeight = 0;//屏幕高度
 
@@ -48,9 +48,10 @@ namespace SnowFlake
 
             //初始化雪花位置
             locationX = rd.Next(WindowsWidth);
-            Location = new Point(locationX, locationY);
+            Location = new Point(locationX, -20);
 
             //初始化时钟
+            interval = rd.Next(40, 100);
             tmrMove.Interval = interval;
             tmrMove.Start();
         }
@@ -59,8 +60,6 @@ namespace SnowFlake
         {
             tmrMove.Stop();
             
-            length += rd.Next(10);
-
 
             if (rd.Next(10) > 5)
             {
@@ -80,7 +79,7 @@ namespace SnowFlake
                 locationY = 0;
                 Width = rd.Next(MinWidth,MaxWidth);
                 Height = Width;
-                interval = rd.Next(50, 100);
+                interval = rd.Next(40, 100);
                 //  Location = new Point(rd.Next(WindowsWidth),0);
                 //  Location = new Point(locationX, 0);
             }

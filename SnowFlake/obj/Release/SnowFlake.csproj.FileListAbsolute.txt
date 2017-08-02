@@ -8,3 +8,12 @@ D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.SnowFlake.resources
 D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.csproj.GenerateResource.Cache
 D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.exe
 D:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.pdb
+C:\GitHub\SnowFlake\SnowFlake\bin\Release\SnowFlake.exe.config
+C:\GitHub\SnowFlake\SnowFlake\bin\Release\SnowFlake.exe
+C:\GitHub\SnowFlake\SnowFlake\bin\Release\SnowFlake.pdb
+C:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.Form1.resources
+C:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.Properties.Resources.resources
+C:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.SnowFlake.resources
+C:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.csproj.GenerateResource.Cache
+C:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.exe
+C:\GitHub\SnowFlake\SnowFlake\obj\Release\SnowFlake.pdb
