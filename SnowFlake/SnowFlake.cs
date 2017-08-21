@@ -59,23 +59,24 @@ namespace SnowFlake
         private void tmrMove_Tick(object sender, EventArgs e)
         {
             tmrMove.Stop();
-            
 
-            if (rd.Next(10) > 5)
-            {
-                locationX += -1;
-            }
-            else
-            {
-                locationX += 1;
-            }
 
+            //if (rd.Next(10) > 5)
+            //{
+            //    locationX += -1;
+            //}
+            //else
+            //{
+            //    locationX += 1;
+            //}
+
+            locationX += 3;
 
             locationY += 5;
 
             if(locationY >= WindowsHeight)
             {
-                locationX = rd.Next(WindowsWidth);
+                locationX = rd.Next(-(WindowsWidth/2),WindowsWidth);
                 locationY = 0;
                 Width = rd.Next(MinWidth,MaxWidth);
                 Height = Width;
